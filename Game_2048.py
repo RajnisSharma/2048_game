@@ -1,4 +1,3 @@
-# minimal_2048_tk.py
 import tkinter as tk
 from tkinter import simpledialog, messagebox
 import random
