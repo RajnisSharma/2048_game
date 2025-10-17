@@ -1,13 +1,14 @@
 # 2048_game
 A simple 2048 game made with Python and Tkinter. You move numbered tiles using arrow keys or WASD to combine them and reach 2048. The game includes Undo, Restart, and Change Size buttons.
 
--- What’s in this repo
+ #### What’s in this repo
 
-** Game_2048.py — single-file implementation (pure logic + Tkinter GUI)
-** README.md — this file
+ Game_2048.py — single-file implementation (pure logic + Tkinter GUI)
+ README.md — this file
 
 ## Requirements
  Python 3.8+
+ 
  tkinter (bundled on Windows/macOS; on many Linux distros install python3-tk)
 
 ## Run the game
@@ -21,14 +22,14 @@ Objective: combine tiles with the same number to reach 2048 (you may continue af
 After each valid move a new tile appears: 2 (90% chance) or 4 (10% chance).
 Game ends when no legal moves remain.
 ### Controls:
--- Arrow keys or W/A/S/D to move tiles. --
--- Buttons: -- 
---- Undo — revert the last move (single-step undo stack). ---
---- Restart — new game with current size/seed. ---
---- Size... — choose board size (2–8), which rebuilds the UI. ---
-** Notes: **
--- Merges occur once per move per tile (proper skip logic implemented). --
--- Undo restores previous (board, score). --
+ Arrow keys or W/A/S/D to move tiles. 
+ Buttons: 
+ Undo — revert the last move (single-step undo stack). 
+ Restart — new game with current size/seed. 
+ Size... — choose board size (2–8), which rebuilds the UI. 
+ #### Notes: 
+ Merges occur once per move per tile (proper skip logic implemented).
+ Undo restores previous (board, score). 
 
 ## Implementation details (concise)
 ### Separation of concerns
