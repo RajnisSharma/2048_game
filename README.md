@@ -15,6 +15,8 @@ A simple 2048 game made with Python and Tkinter. You move numbered tiles using a
  From the project directory:
  python Game_2048.py
  The window opens with a 4×4 board by default. You can change seed/size inside main() for reproducible demos.
+ <img width="623" height="686" alt="image" src="https://github.com/user-attachments/assets/c77c9a17-01c7-41d6-94d6-66055e506604" />
+
 
 ## Gameplay & Controls
 
